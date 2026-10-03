@@ -355,3 +355,67 @@ Before a criterion is completed, do these checks.
 
 Score = 32
 
+**References**
+
+Arora, R. K., Wei, J., Hicks, R. S., Bowman, P., Quiñonero-Candela, J.,
+Tsimpourlas, F., Sharman, M., Shah, M., Vallone, A., Beutel, A.,
+Heidecke, J., & Singhal, K. (2025). *HealthBench: Evaluating Large
+Language Models Towards Improved Human Health* (arXiv:2505.08775).
+arXiv. https://doi.org/10.48550/arXiv.2505.08775
+
+D’hoe, B., Kirk, D., Boone, J., & Colosio, A. (2026). ChatGPT
+Outperforms Personal Trainers in Answering Common Exercise Training
+Questions. *Journal of Sports Science & Medicine*, *25*(1), 235–261.
+https://doi.org/10.52082/jssm.2026.235
+
+Düking, P., Sperlich, B., Voigt, L., Van Hooren, B., Zanini, M., &
+Zinner, C. (2024). ChatGPT Generated Training Plans for Runners are not
+Rated Optimal by Coaching Experts, but Increase in Quality with
+Additional Input Information. *Journal of Sports Science & Medicine*,
+*23*(1), 56–72. https://doi.org/10.52082/jssm.2024.56
+
+Gong, E. J., Bang, C. S., Lee, J. J., & Baik, G. H. (2025).
+Knowledge-Practice Performance Gap in Clinical Large Language Models:
+Systematic Review of 39 Benchmarks. *Journal of Medical Internet
+Research*, *27*(1), e84120. https://doi.org/10.2196/84120
+
+Kikuchi, E., Pasquini, G., & Yam, E. (2026, August 25). From Diagnoses
+to Treatments, Why Americans Use AI Chatbots for Health. *Pew Research
+Center*.
+https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/
+
+McVay, M. A., Willfort, S., Jake-Schoffman, D. E., Dorr, B., Sheer, A.
+J., & Henry, K. (2026). *Use of Large Language Models by U.S. Adults to
+Support Exercise: A Survey Study* (p. 2026.05.01.26352211). medRxiv.
+https://doi.org/10.64898/2026.05.01.26352211
+
+Singhal, K., Tu, T., Gottweis, J., Sayres, R., Wulczyn, E., Amin, M.,
+Hou, L., Clark, K., Pfohl, S. R., Cole-Lewis, H., Neal, D., Rashid, Q.
+M., Schaekermann, M., Wang, A., Dash, D., Chen, J. H., Shah, N. H.,
+Lachgar, S., Mansfield, P. A., … Natarajan, V. (2025). Toward
+expert-level medical question answering with large language models.
+*Nature Medicine*, *31*(3), 943–950.
+https://doi.org/10.1038/s41591-024-03423-7
+
+Sirdeshmukh, V., Deshpande, K., Mols, J., Jin, L., Cardona, E.-Y., Lee,
+D., Kritz, J., Primack, W., Yue, S., & Xing, C. (2025). *MultiChallenge:
+A Realistic Multi-Turn Conversation Evaluation Benchmark Challenging to
+Frontier LLMs* (arXiv:2501.17399). arXiv.
+https://doi.org/10.48550/arXiv.2501.17399
+
+Starace, G., Jaffe, O., Sherburn, D., Aung, J., Chan, J. S., Maksin, L.,
+Dias, R., Mays, E., Kinsella, B., Thompson, W., Heidecke, J., Glaese,
+A., & Patwardhan, T. (2025). *PaperBench: Evaluating AI’s Ability to
+Replicate AI Research* (arXiv:2504.01848). arXiv.
+https://doi.org/10.48550/arXiv.2504.01848
+
+Yan, Z., Song, D., Fang, Z., Ji, Y., Li, X., Li, Q., & Sun, L. (2026).
+*LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with
+Automated Rubric Evaluation* (arXiv:2602.10367). arXiv.
+https://doi.org/10.48550/arXiv.2602.10367
+
+Zaleski, A. L., Berkowsky, R., Craig, K. J. T., & Pescatello, L. S.
+(2024). Comprehensiveness, Accuracy, and Readability of Exercise
+Recommendations Provided by an AI-Based Chatbot: Mixed Methods Study.
+*JMIR Medical Education*, *10*(1), e51308. https://doi.org/10.2196/51308
+
