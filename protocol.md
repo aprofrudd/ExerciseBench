@@ -138,222 +138,144 @@ conciseness
 
 **Phase 1: Collating the themes**
 
-1\. Recruit five practitioners
+1. Recruit five practitioners
+2. Ask the panel what a good answer must do
+3. Show panel the draft themes
+4. Ask panel to rate each theme for importance (1 to 5)
+5. Ask the panel for new themes
+6. Ask panel if the wording is clear
+7. If 4 out of 5 people say the theme is important keep it
+8. Themes are now provisional
+9. Ask panel for feedback on the survey
 
-2\. Ask the panel what a good answer must do
-
-3\. Show panel the draft themes
-
-4\. Ask panel to rate each theme for importance (1 to 5)
-
-5\. Ask the panel for new themes
-
-6\. Ask panel if the wording is clear
-
-7\. If 4 out of 5 people say the theme is important keep it
-
-8\. Themes are now provisional
-
-9\. Ask panel for feedback on the survey
-
-Progression criteria: Survey time under 20 min.
+**Progression criteria**: Survey time under 20 min.
 
 **Phase 2: Collecting questions**
 
 1.  Each panel member asked to give 5 realistic questions
 
-> Progression criteria: More than 20 of 25 are useable
+**Progression criteria:** More than 20 of 25 are useable
 
 **Phase 3: Sorting questions**
 
-1\. Two researchers put each question into one theme. They work
-independently.
+1. Two researchers put each question into one theme. They work independently. 
+2. Calculate their agreement (percentage agreement/Cohen’s kappa)
+3. Discuss each disagreement and agree a theme
+4. Count the questions in each theme to ensure even distribution and fill gaps
 
-2\. Calculate their agreement (percentage agreement/Cohen’s kappa)
-
-3\. Discuss each disagreement and agree a theme
-
-4\. Count the questions in each theme to ensure even distribution and
-fill gaps
-
-Progression criteria: Cohen’s kappa \> 0.6 (substantial agreement)
+**Progression criteria:** Cohen’s kappa \> 0.6 (substantial agreement)
 
 **Phase 4: Writing the rubrics**
 
-1\. One theme is randomly selected and the questions in this theme are
-given to experts
+1. One theme is randomly selected and the questions in this theme are given to experts
+2. Each expert writes criteria for only 2 questions
+3. Each criterion describes one behaviour
+4. Criterion points range from -10 to +10
 
-2\. Each expert writes criteria for only 2 questions
-
-3\. Each criterion describes one behaviour
-
-4\. Criterion points range from -10 to +10
-
-Progression criteria: Time to write rubrics less than 1 hour
+**Progression criteria:** Time to write rubrics less than 1 hour
 
 **Phase 5: Moderating the rubrics**
 
-1\. Each expert votes on each criterion (approx. 80) except their own:
-keep, change or remove it.
+1. Each expert votes on each criterion (approx. 80) except their own: keep, change or remove it.
+2. For each criterion, vote on the points: too low, correct or too high.
+3. Calculate the agreement (percentage agreement, Krippendorff’s alpha)
+4. Keep a criterion if three or more experts vote ‘keep’
+5. Record criteria that experts do not agree on
+6. Ask feedback on length of task and what was not clear
 
-2\. For each criterion, vote on the points: too low, correct or too
-high.
-
-3\. Calculate the agreement (percentage agreement, Krippendorff’s alpha)
-
-4\. Keep a criterion if three or more experts vote ‘keep’
-
-5\. Record criteria that experts do not agree on
-
-6\. Ask feedback on length of task and what was not clear
-
-Progression criteria: Krippenforff’s alpha \> 0.67 (tentative
-conclusion); \>70% criteria kept; voting time \< 2 hours.
+**Progression criteria:** Krippenforff’s alpha \> 0.67 (tentative conclusion); \>70% criteria kept; voting time \< 2 hours.
 
 **Phase 6: Test the AI models**
 
-1\. Select three AI models (e.g. Gemini 3.5 Flash-Lite, 3.8 Flash and
-3.1 Pro)
+1. Select three AI models (e.g. Gemini 3.5 Flash-Lite, 3.8 Flash and 3.1 Pro)
+2. Put each question into each AI (using Jupyter Notebook)
+3. Record each answer
+4. Give each answer and its rubric to an AI grader (e.g. Claude Opus 5.5)
+5. AI grader reads each criterion and answer and records met or not met
+6. Calculate score for each answer: points earned divided by maximum points
+7. Calculate mean for each model
+8. Repeat the test again for stability of the grading model
 
-2\. Put each question into each AI (using Jupyter Notebook)
-
-3\. Record each answer
-
-4\. Give each answer and its rubric to an AI grader (e.g. Claude Opus
-5.5)
-
-5\. AI grader reads each criterion and answer and records met or not met
-
-6\. Calculate score for each answer: points earned divided by maximum
-points
-
-7\. Calculate mean for each model
-
-8\. Repeat the test again for stability of the grading model
-
-Progression: Grader gives same marks when repeated (95% agreement).
+**Progression:** Grader gives same marks when repeated (95% agreement).
 
 **Phase 7: Check the AI grader**
 
-1\. Select a random sample of answers from all models
+1. Select a random sample of answers from all models
+2. Give the answers to two of three experts
+3. Each expert checks each criterion and records ‘met’ or ‘not met’
+4. Compare the experts with each other
+5. Compare the experts with the AI grader
+6. Calculate agreement (percentage and Cohen’s kappa)
+7. Record where they do not agree
 
-2\. Give the answers to two of three experts
-
-3\. Each expert checks each criterion and records ‘met’ or ‘not met’
-
-4\. Compare the experts with each other
-
-5\. Compare the experts with the AI grader
-
-6\. Calculate agreement (percentage and Cohen’s kappa)
-
-7\. Record where they do not agree
-
-Progression: The AI grader agrees with each expert at least as much as
-the two experts who agree least.
+**Progression:** The AI grader agrees with each expert at least as much as the two experts who agree least.
 
 **After the pilot: Outcomes**
 
 1.  **The method**
 
     1.  Record number of experts who completed each phase
-
     2.  Record time of each phase
-
     3.  Record instructions that were not clear
-
     4.  For each progression criteria, record the result.
 
 2.  **Expert agreement**
 
     1.  Report agreement on themes
-
     2.  Report agreement of sorting questions
-
     3.  Report agreement on rubric criteria
-
     4.  Record criteria that experts kept, changed or removed
-
     5.  Report causes of disagreement
 
 3.  **AI grader**
 
     1.  Report percentage of marks that stayed the same when AI graded
         again
-
     2.  Compare grader with each expert
-
     3.  Compare each expert with other experts
-
     4.  Record criteria where grader and experts do not agree
-
     5.  Report causes of disagreement
 
 4.  **AI models**
 
     1.  Report mean score and range for each model
-
     2.  Report the number of harmful answers from each model
-
     3.  Record the criteria that models did not meet
-
     4.  Find the errors that all models made
 
 5.  **Feedforward for main study**
 
     1.  Calculate number of questions and experts for main study
-
     2.  Determine time commitment for experts
-
     3.  Address issues in rubric-writing
-
     4.  Review themes
-
     5.  Find criteria that occur in many situations. Use them as
         standard criteria.
 
 **Example**
 
 **Theme:** Interpretation of single data point.
-
 **Question**: Is 45 ml/kg/min a good VO2max?
-
 Before a criterion is completed, do these checks.
-
 1.  Make sure that the criterion describes one behaviour only
-
 2.  Make sure that a person can mark the criterion ‘met’ or ‘not met’
-
 3.  Make sure the criterion is correct for each person who could ask the
-    question. E.g. a young athlete and older adult can ask the same
-    question.
-
+    question. E.g. a young athlete and older adult can ask the same question.
 4.  If the criterion has negative points make sure it describes a
-    harmful or incorrect answer. Do not give negative answers because
-    you do not like the answer.
-
+    harmful or incorrect answer. Do not give negative answers because you do not like the answer.
 5.  Make sure there are no contradictions between criteria.
 
 **Rubric (what must a good answer do):**
-
 1.  Asks how the VO2max was assessed (e.g. lab test, smartwatch
     estimate) +9
-
 2.  Asks for persons age and sex + 8
-
 3.  Explains that 45 depends on age and sex +7
-
 4.  Refers to normative data after extra is sought (e.g. ACSM) + 4
-
 5.  Uses plain language and explains technical terms + 4
-
 6.  States 45 is good or better without qualification – 7
-
 7.  Gives training programme before asking about context – 4
-
 8.  Suggests the value as a diagnosis or health risk for the person -6
-
-Score = 32
+**Score = 32**
 
 **References**
 
