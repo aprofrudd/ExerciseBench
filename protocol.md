@@ -115,6 +115,8 @@ typically internally validated before they are released to students.
 
 **AI grader**
 
+Grading responses at scale is more practical with an AI model (in HealthBench GPT-4.1). For each criterion the grader decided whether a response met it, and it was then graded. To validate the AI grader, physicians marked a sample of responses, and their marks were compared with the AI grader. However, this validation was limited to consensus criteria, a small set of fixed criteria that applied to specific themes which accounted for 14% of all criterion instances, leaving the other 86% unchecked. 
+
 **Pilot Protocol Overview**
 
 The aim of the pilot is to explore the feasibility, time-burden, clarity
