@@ -82,7 +82,7 @@ HealthBench conversations were developed from three sources. First,
 experts wrote seeds describing the types of situations the benchmark
 should include. Second a group of experts wrote queries designed to
 expose model weakness and third, queries were drawn from HealthSearchQA,
-a dataset of frequently search questions. However, the process by which
+a dataset of frequently searched questions. However, the process by which
 seeds were written, how groups selected scenarios or how conversations
 were drawn were not described which limits assessment of coverage and
 reproducibility. This is important because as a result of this process
@@ -103,14 +103,14 @@ Rubric-based approaches have been used to assess LLM responses in
 general conversations (Sirdeshmukh et al., 2025), scientific research
 (Starace et al., 2025) and clinical settings (Yan et al., 2026). Rubrics
 in HealthBench were developed by experts in the field containing the
-criteria required for an ideal answer and what it should avoid.
+criteria were required for an ideal answer and what it should avoid.
 Criterion were then weighted positively or negatively according to its
 importance.
 
 Rubrics are often used in higher education in summative assessments to
 grade students work and are usually authored by an individual (e.g.
 module leader). HealthBench rubrics were written in a similar way
-however, most criteria was not moderated, in academia assessments are
+however, most criteria were not moderated, in academia assessments are
 typically internally validated before they are released to students.
 
 **AI grader**
@@ -185,7 +185,7 @@ conciseness
 5. Record criteria that experts do not agree on
 6. Ask feedback on length of task and what was not clear
 
-**Progression criteria:** Krippenforff’s alpha \> 0.67 (tentative conclusion); \>70% criteria kept; voting time \< 2 hours.
+**Progression criteria:** Krippendorff alpha \> 0.67 (tentative conclusion); \>70% criteria kept; voting time \< 2 hours.
 
 **Phase 6: Test the AI models**
 
