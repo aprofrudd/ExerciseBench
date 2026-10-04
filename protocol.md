@@ -124,8 +124,7 @@ ExerciseBench will aim to use a different company to the models tested and will 
 **Pilot Protocol Overview**
 
 The aim of the pilot is to explore the feasibility, time-burden, clarity
-of the instructions and estimate of agreement within a protocol that is
-unfamiliar within sport and exercise science. Exploring a full protocol
+of the instructions and estimate of agreement. Such a protocol is novel within sport and exercise science and exploring a full protocol
 with large recruitment at this stage would increase the risk of
 methodological failure.
 
