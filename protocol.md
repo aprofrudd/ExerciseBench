@@ -104,7 +104,7 @@ general conversations (Sirdeshmukh et al., 2025), scientific research
 (Starace et al., 2025) and clinical settings (Yan et al., 2026). Rubrics
 in HealthBench were developed by experts in the field containing the
 criteria were required for an ideal answer and what it should avoid.
-Criterion were then weighted positively or negatively according to its
+Criteria were then weighted positively or negatively according to its
 importance.
 
 Rubrics are often used in higher education in summative assessments to
@@ -118,8 +118,8 @@ typically internally validated before they are released to students.
 Grading responses at scale is more practical with an AI model (in HealthBench GPT-4.1 was used).
 For each criterion the grader in HealthBench decided whether a response met it, and it was then graded and scores summed. 
 To validate the AI grader, physicians marked a sample of responses, and their marks were compared with the AI grader. 
-However, this validation was limited to consensus criteria, a small set of fixed criteria that applied to specific themes which accounted for 14% of all criterion instances, leaving the other 86% unchecked. 
-ExerciseBench will aim to use a different company to the models tested and will be checked for consistency by repeating grading accuracy and then checked again by experts.
+However, this validation was limited to consensus criteria, a small set of fixed criteria that applied to specific themes which accounted for 14% of all criterion instances, leaving the other 86% unchecked (Arora et al. 2025). 
+ExerciseBench will aim to use a different company to the models tested and will be checked for consistency by repeating grading accuracy and then checked again by experts in Phase 7.
 
 **Pilot Protocol Overview**
 
@@ -159,11 +159,11 @@ conciseness
 
 1.  Each panel member asked to give 5 realistic questions
 
-**Progression criteria:** More than 20 of 25 are useable
+**Progression criteria:** More than 20 of 25 are realistic
 
 **Phase 3: Sorting questions**
 
-1. Two researchers put each question into one theme. They work independently. 
+1. Two researchers on the team put each question into one theme. They work independently. 
 2. Calculate their agreement (percentage agreement/Cohen’s kappa)
 3. Discuss each disagreement and agree a theme
 4. Count the questions in each theme to ensure even distribution and fill gaps
